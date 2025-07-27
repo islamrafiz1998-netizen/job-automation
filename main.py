@@ -18,13 +18,13 @@ JOB_TITLES = [
 ]
 LOCATION_KEYWORDS = ["London", "East London", "Central London"]
 MIN_SALARY = 40000
-YOUR_NAME = "Your Name"
-YOUR_EMAIL = "your.email@gmail.com"
+YOUR_NAME = "Rafiz Islam"
+YOUR_EMAIL = "islamrafiz1998@gmail.com"
 CV_FILE_PATH = "your_cv.pdf"  # Upload this to Replit or your repo
 
 # ========== GOOGLE SHEETS SETUP ==========
-SHEET_ID = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQPnw3M1Yfgo9-fnKgK_1vmHOzkhBmpjayZhyam234DxXAdAhd9CabLf8dTcDOBcxxS_4STsaehTxxP/pubhtml"
-SHEET_RANGE = "Applications!A1:G1"  # Adjust as needed
+SHEET_ID = "10But6wym-JvxXy2usyF-5wLw9Q6Vlxi87pCFbat298s"
+SHEET_RANGE = "Sheet1!A1:G1"  # Adjust as needed
 
 # ========== GOOGLE API SETUP ==========
 SCOPES = [
@@ -37,14 +37,19 @@ SERVICE_ACCOUNT_FILE = "credentials.json"  # Download from Google Cloud
 COVER_LETTER_TEMPLATE = """
 Dear {company},
 
-I am writing to apply for the {job_title} position in {location}. With my experience in IT asset management and support, I am confident I can contribute to your team. My background includes...
+I am writing to apply for the {job_title} position in {location}. With my experience in IT asset management and support, I am confident I can contribute to your team. In my current role, 
+I oversee the deployment, return, and compliance processing of over 500 IT assets monthly across the EMEA region, ensuring full audit readiness and data security at every stage. 
+I’ve led inventory updates that reduced asset discrepancies by 25% through bi-weekly audits and accurate system logging. 
+I also coordinated a project that securely processed 12,000+ devices in five weeks—well ahead of schedule and without a single data breach.
 
-[Add more about your experience here]
+My day-to-day work includes system updates, stock-level reporting, and support ticketing across laptops, phones, and desktop hardware—much like what’s described in your role. 
+I’m highly organised, process-driven, and thrive in hybrid environments that require collaboration across departments and timely delivery of IT services.
 
-I have attached my CV for your review. I look forward to discussing how I can help your organization.
+
+I have attached my CV for your review. I look forward to discussing how I can help your organisation.
 
 Best regards,
-{your_name}
+Rafiz Islam
 """
 
 # ========== JOB SEARCH FUNCTION (Google Search Example) ==========
