@@ -23,7 +23,7 @@ YOUR_EMAIL = "your.email@gmail.com"
 CV_FILE_PATH = "your_cv.pdf"  # Upload this to Replit or your repo
 
 # ========== GOOGLE SHEETS SETUP ==========
-SHEET_ID = "YOUR_GOOGLE_SHEET_ID"
+SHEET_ID = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQPnw3M1Yfgo9-fnKgK_1vmHOzkhBmpjayZhyam234DxXAdAhd9CabLf8dTcDOBcxxS_4STsaehTxxP/pubhtml"
 SHEET_RANGE = "Applications!A1:G1"  # Adjust as needed
 
 # ========== GOOGLE API SETUP ==========
